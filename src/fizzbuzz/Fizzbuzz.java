@@ -33,7 +33,11 @@ public class Fizzbuzz {
 		}
 		
 		if(i % 10 == 0) {
-			fb += "wann";
+			fb += "wann";	
+		}
+
+		if(i % 15 == 0) {
+			fb += "nyan";
 		}
 			return fb;
 	
