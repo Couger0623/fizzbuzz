@@ -32,6 +32,10 @@ public class Fizzbuzz {
 			fb += "Hoge";
 		}
 		
+		if(i % 10 == 0) {
+			fb += "wann";	
+		}
+
 		if(i % 15 == 0) {
 			fb += "nyan";
 		}
